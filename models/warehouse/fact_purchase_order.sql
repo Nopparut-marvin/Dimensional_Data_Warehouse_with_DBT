@@ -8,7 +8,7 @@ with source as (
         pod.unit_cost,
         pod.date_received,
         pod.posted_to_inventory,
-        pod.inventory_id
+        pod.inventory_id,
         po.supplier_id,
         po.created_by,
         po.submitted_date,
