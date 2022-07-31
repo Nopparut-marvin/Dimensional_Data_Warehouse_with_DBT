@@ -5,6 +5,7 @@ with source as (
         p.product_name,
         p.description,
         s.company as supplier_company,
+        p.target_level,
         p.standard_cost,
         p.list_price,
         p.reorder_level,
